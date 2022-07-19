@@ -1,0 +1,29 @@
+{
+    "config": "air",
+    "compilerOptions": {
+        "source-path": [
+            "src"
+        ],
+        "output": "bin/Main.swf"
+    },
+    "mainClass": "mochicrypt/Preloader",
+    "application": "application.xml",
+    "airOptions": {
+        // "output": "bin/Main.air",
+        // "android": {
+        //     "output": "bin/Main.apk",
+        //     "signingOptions": {
+        //         "storetype": "pkcs12",
+        //         "keystore": "android_certificate.p12"
+        //     }
+        // },
+        // "ios": {
+        //     "output": "bin/Main.ipa",
+        //     "signingOptions": {
+        //         "storetype": "pkcs12",
+        //         "keystore": "ios_certificate.p12",
+        //         "provisioning-profile": "example.mobileprovision"
+        //     }
+        // }
+    }
+}
